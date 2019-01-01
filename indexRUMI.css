@@ -1,0 +1,243 @@
+tml,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(112.83365417791754deg, rgba(222, 196, 135, 1) 5.424679487179487%, rgba(211, 227, 154, 1) 96.77083333333333%);
+    padding: 0;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center
+}
+
+.box1 {
+    flex: 1;
+    font-family: 'Cinzel', serif;
+    background-color: rgb(240, 230, 184);
+    margin: 1%;
+    padding: 3%;
+    border-radius: 2em;
+    background-image: url('./img/yellow-smoke-png.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%;
+}
+
+#titr {
+    font-size: 4em;
+}
+
+.topnav a {
+    border: 3px solid rgb(199, 155, 98);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 2%;
+}
+
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    flex: 1;
+    background-color: rgb(240, 230, 184);
+    margin: 4%;
+    padding: 4%;
+    border-radius: 2em;
+}
+
+.container h3 {
+    font-family: 'Cinzel', serif;
+}
+
+.flex-container p {
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.flex-container header h1 {
+    font-family: 'Cinzel', serif;
+}
+
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: none;
+}
+
+.circle1 {
+    -webkit-clip-path: circle(61.0% at 50% 50%);
+    clip-path: circle(61.0% at 50% 50%);
+}
+
+.square {
+    -webkit-clip-path: polygon(50% 0%, 100% 6%, 100% 94%, 50% 100%, 0 94%, 0 6%);
+    clip-path: polygon(50% 0%, 100% 6%, 100% 94%, 50% 100%, 0 94%, 0 6%);
+    width: 80%;
+}
+
+.poly {
+    -webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    float: none;
+}
+
+.botttomnav {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: none;
+}
+
+.box6 {
+    background-image: url('./img/UIHere.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20%;
+    align-items: flex-start;
+}
